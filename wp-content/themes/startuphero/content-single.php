@@ -12,8 +12,10 @@ if ( isset( $GLOBALS['content_width'] ) )
 	<header class="entry-header">
 		<?php 
 		$format = get_post_format();
-		if( 'link' === $format ) { ?>
-			<h1 class="entry-title">Link: <?php the_title(); ?></h1>
+		if( 'link' === $format ) { 
+			global $post;
+			$outbound_link = get_post_meta( $post->ID, '_startuphero_post_link_url', true ); ?>
+			<h1 class="entry-title"><a href="<?php echo $outbound_link; ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h1>
 		<?php } else { ?>
 			<h1 class="entry-title"><?php the_title(); ?></h1>
 		<?php } ?>
