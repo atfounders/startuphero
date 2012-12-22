@@ -383,6 +383,13 @@ body {
 	width: 282px;
 	z-index: 2;
 }
+
+/* Images in sidebars */
+#secondary .textwidget img {
+	float: left;
+	margin: 0 15px 15px 0;
+}
+
 .site-footer {
 	background-color: rgb(255,255,255);
 	background-color: rgba(255,255,255,0.95);
