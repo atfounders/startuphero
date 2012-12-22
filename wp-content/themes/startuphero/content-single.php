@@ -10,8 +10,13 @@ if ( isset( $GLOBALS['content_width'] ) )
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<h1 class="entry-title"><?php the_title(); ?></h1>
-
+		<?php 
+		$format = get_post_format();
+		if( 'link' === $format ) { ?>
+			<h1 class="entry-title">Link: <?php the_title(); ?></h1>
+		<?php } else { ?>
+			<h1 class="entry-title"><?php the_title(); ?></h1>
+		<?php } ?>
 		<div class="entry-meta">
 		<?php
 			if ( 'nova_menu_item' == get_post_type() ) :

@@ -813,6 +813,18 @@ img.aligncenter {
 	padding: 24px 0 0;
 	padding: 2.4rem 0 0;
 }
+
+/* Link format posts */
+.format-link .entry-header {
+	margin-bottom: -20px;
+}
+.format-link .entry-header .entry-meta {
+	display: none;
+}
+.format-link .entry-title {
+	font-size: 18px;
+}
+
 .page-links {
 	clear: both;
 	margin: 0 0 24px;
