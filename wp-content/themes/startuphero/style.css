@@ -857,6 +857,12 @@ p.comment-subscription-form {
 .format-link .entry-title {
 	font-size: 18px;
 }
+.link-thumbnail img {
+	float: left;
+	height: 75px;
+	margin: 8px 16px 16px 32px;
+	width: 75px;
+}
 
 .page-links {
 	clear: both;

@@ -16,6 +16,9 @@ if ( isset( $GLOBALS['content_width'] ) )
 			global $post;
 			$outbound_link = get_post_meta( $post->ID, '_startuphero_post_link_url', true ); ?>
 			<h1 class="entry-title"><a href="<?php echo $outbound_link; ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h1>
+			<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'confit' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark" class="link-thumbnail">
+				<?php the_post_thumbnail( 'thumbnail' ); ?>
+			</a>
 		<?php } else { ?>
 			<h1 class="entry-title"><?php the_title(); ?></h1>
 		<?php } ?>
