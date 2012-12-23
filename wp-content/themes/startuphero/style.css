@@ -1308,6 +1308,11 @@ object {
 	display: none;
 }
 
+/* Gravity Forms */
+.gform_wrapper ul li.gfield {
+	margin-left: 0;
+}
+
 
 /* =Widgets
 ----------------------------------------------- */
