@@ -391,10 +391,17 @@ body {
 }
 
 /* Editors in sidebar */
-#secondary span.editor {
+#secondary span.editor,
+#secondary span.role {
 	display: block;
 	font-size: 10px;
 	margin-bottom: -4px;
+}
+#content span.role {
+	display: block;
+	font-size: 12px;
+	margin-bottom: 4px;
+	text-transform: uppercase;
 }
 
 .site-footer {
