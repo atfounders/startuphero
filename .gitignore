@@ -13,3 +13,6 @@ wp-content/backups/
 sitemap.xml
 sitemap.xml.gz
 .DS_Store
+wp-content/plugins/gravityforms/
+wp-content/plugins/icit-auditlogger/
+wp-content/plugins/icit-auditlogviewer/
