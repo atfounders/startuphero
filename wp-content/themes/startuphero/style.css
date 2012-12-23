@@ -818,7 +818,7 @@ img.aligncenter {
 
 /* Comment Subscriptions */
 p.form-submit {
-	margin-bottom: 20px;
+	margin-bottom: 20px !important;
 }
 p.comment-subscription-form {
 	margin-bottom: 0;
