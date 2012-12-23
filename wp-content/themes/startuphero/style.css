@@ -815,6 +815,15 @@ img.aligncenter {
 	padding: 8px 10px 8px 0;
 	padding: 0.8rem 1rem 0.8rem 0;
 }
+
+/* Comment Subscriptions */
+p.form-submit {
+	margin-bottom: 20px;
+}
+p.comment-subscription-form {
+	margin-bottom: 0;
+}
+
 .sticky {
 }
 .site-content article {
