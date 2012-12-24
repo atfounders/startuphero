@@ -277,3 +277,6 @@ function confit_customize( $wp_customize ) {
 	) ) );
 }
 add_action( 'customize_register', 'confit_customize' );
+
+// Editor styles
+add_editor_style( 'editor.css' );

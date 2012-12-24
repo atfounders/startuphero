@@ -1,0 +1,177 @@
+/* Custom Editor Styles */
+
+#tinymce {
+	width: 550px;
+}
+p {
+	font-size: 15px;
+	line-height: 24px;
+	margin-bottom: 24px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Muli, Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	letter-spacing: -0.04em;
+	margin-bottom: 24px;
+	margin-bottom: 2.4rem;
+}
+h1 {
+	font-size: 30px;
+	line-height: 42px;
+	letter-spacing: -1px;
+}
+h2 {
+	font-size: 30px;
+	line-height: 42px;
+	letter-spacing: -1px;
+}
+h3 {
+	font-size: 30px;
+	line-height: 42px;
+	letter-spacing: -1px;
+}
+h4 {
+	font-size: 24px;
+	line-height: 24px;
+}
+h5 {
+	font-size: 18px;
+	line-height: 24px;
+}
+h6 {
+	font-size: 15px;
+	line-height: 24px;
+}
+ol,
+ul {
+	margin: 0 0 24px;
+	margin: 0 0 2.4rem;
+}
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+	margin-bottom: 0;
+}
+ul {
+	list-style: disc;
+}
+ol {
+	list-style: decimal;
+}
+li {
+	margin: 0 0 0 36px;
+	margin: 0 0 0 3.6rem;
+}
+blockquote {
+	color: #8C8885;
+	margin-bottom: 24px;
+	margin-bottom: 2.4rem;
+	padding: 24px 0;
+	padding: 2.4rem 0;
+	font-style: italic;
+}
+blockquote p {
+	border-left: 5px solid #E94F1D;
+	padding-left: 24px;
+	padding-left: 2.4rem;
+}
+blockquote p:last-child {
+	margin-bottom: 0;
+}
+code {
+	font-family: Consolas, Monaco, Lucida Console, monospace;
+	font-size: 13px;
+	font-size: 1.3rem;
+	line-height: 1.8461538461;
+}
+pre {
+	border: 1px solid rgba(0,0,0,0.2);
+	color: #666;
+	font-family: Consolas, Monaco, Lucida Console, monospace;
+	font-size: 13px;
+	font-size: 1.3rem;
+	line-height: 1.8461538461;
+	margin: 24px 0;
+	margin: 2.4rem 0;
+	overflow: auto;
+	max-width: 100%;
+	padding: 24px;
+	padding: 2.4rem;
+}
+pre code {
+	display: block;
+}
+abbr,
+dfn,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+address {
+	display: block;
+	line-height: 1.6325;
+	margin: 0 0 24px;
+	margin: 0 0 2.4rem;
+}
+img.alignleft,
+img.left {
+	margin: 7px 24px 7px 0;
+	margin: 0.7rem 2.4rem 0.7rem 0;
+}
+img.alignright,
+img.right {
+	margin: 7px 0 7px 24px;
+	margin: 0.7rem 0 0.7rem 2.4rem;
+}
+img.aligncenter,
+img.center {
+	margin-top: 7px;
+	margin-top: 0.7rem;
+	margin-bottom: 7px;
+	margin-bottom: 0.7rem;
+}
+embed,
+iframe,
+object,
+video {
+	margin-bottom: 24px;
+	margin-bottom: 2.4rem;
+}
+dl {
+	margin: 24px 0;
+	margin: 2.4rem 0;
+}
+dt {
+	font-weight: bold;
+}
+dd {
+	margin-bottom: 24px;
+	margin-bottom: 2.4rem;
+}
+table {
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	color: #777;
+	font-size: 14px;
+	font-size: 1.4rem;
+	line-height: 1.6428571428;
+	margin: 0 0 24px;
+	margin: 0 0 2.4rem;
+	width: 100%;
+}
+table caption {
+	font-size: 14px;
+	font-size: 1.4rem;
+	margin: 12px 0;
+	margin: 1.2rem 0;
+}
+td {
+	border-top: 1px solid rgba(0,0,0,0.2);
+	padding: 8px 10px 8px 0;
+	padding: 0.8rem 1rem 0.8rem 0;
+}
