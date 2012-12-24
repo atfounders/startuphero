@@ -280,3 +280,6 @@ add_action( 'customize_register', 'confit_customize' );
 
 // Editor styles
 add_editor_style( 'editor.css' );
+
+// Set Distraction Free Writing width
+set_user_setting( 'dfw_width', 570 );
