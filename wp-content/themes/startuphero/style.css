@@ -588,9 +588,6 @@ body {
 	color: #85AA0C;
 	text-decoration: underline;
 }
-.byline {
-	display: none;
-}
 .single .byline,
 .group-blog .byline {
 	display: inline;
