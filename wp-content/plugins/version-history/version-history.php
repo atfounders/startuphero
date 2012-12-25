@@ -58,10 +58,10 @@ function rwi_version_history_display(){
 	$version_history = new WP_Query( $args );
 	
 	while ( $version_history->have_posts() ) :
-		$version_history->the_post(); ?>
-		<h3><?php the_title(); ?> &ndash; <?php the_date(); ?></h3>
-		<?php the_content(); ?>
-	<?php endwhile;
+		$version_history->the_post();
+		$display .= '<h3>' . get_the_title() . '&ndash;' . get_the_date() . '</h3>';
+		$display .= get_the_content();
+	endwhile;
 
 	wp_reset_query();
 	wp_reset_postdata();
