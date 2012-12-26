@@ -70,19 +70,39 @@ li {
 }
 blockquote {
 	color: #8C8885;
-	margin-bottom: 24px;
-	margin-bottom: 2.4rem;
-	padding: 24px 0;
-	padding: 2.4rem 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-top: 0;
+	padding: 0;
 	font-style: italic;
 }
 blockquote p {
 	border-left: 5px solid #E94F1D;
-	padding-left: 24px;
-	padding-left: 2.4rem;
+	padding-left: 18px;
 }
 blockquote p:last-child {
 	margin-bottom: 0;
+}
+blockquote.jump {
+	float: right;
+	width: 45%;
+}
+blockquote.jump,
+blockquote.jump p {
+	font-size: 24px;
+	line-height: 36px;
+}
+.entry-content blockquote.roadblock p {
+	border-bottom: 1px solid #e94f1d;
+	border-left: none;
+	border-top: 1px solid #e94f1d;
+	padding-left: 0;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.entry-content blockquote.roadblock,
+.entry-content blockquote.roadblock p {
+	font-size: 24px;
 }
 code {
 	font-family: Consolas, Monaco, Lucida Console, monospace;

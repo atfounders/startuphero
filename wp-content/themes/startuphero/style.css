@@ -702,10 +702,8 @@ body {
 .entry-content blockquote,
 .comment-content blockquote {
 	color: #8C8885;
-	margin-bottom: 24px;
-	margin-bottom: 2.4rem;
-	padding: 24px 0;
-	padding: 2.4rem 0;
+	margin-bottom: 0;
+	padding: 0 0 24px 0;
 	font-style: italic;
 }
 .entry-content blockquote p,
@@ -717,6 +715,23 @@ body {
 .entry-content blockquote p:last-child,
 .comment-content blockquote p:last-child {
 	margin-bottom: 0;
+}
+.entry-content blockquote.jump {
+	float: right;
+	font-size: 24px;
+	width: 45%;
+}
+.entry-content blockquote.roadblock p {
+	border-bottom: 1px solid #e94f1d;
+	border-left: none;
+	border-top: 1px solid #e94f1d;
+	padding-left: 0;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.entry-content blockquote.roadblock,
+.entry-content blockquote.roadblock p {
+	font-size: 24px;
 }
 .entry-content code,
 .comment-content code {
@@ -783,6 +798,12 @@ img.center {
 .entry-content video {
 	margin-bottom: 24px;
 	margin-bottom: 2.4rem;
+}
+.entry-content p embed,
+.entry-content p iframe,
+.entry-content p object,
+.entry-content p video {
+	margin-bottom: 0;
 }
 .entry-content dl,
 .comment-content dl {
