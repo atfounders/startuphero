@@ -23,7 +23,7 @@ if ( isset( $GLOBALS['content_width'] ) )
 		if( 'link' === $format ) { 
 			global $post;
 			$outbound_link = get_post_meta( $post->ID, '_startuphero_post_link_url', true ); ?>
-			<h1 class="entry-title"><a href="<?php echo $outbound_link; ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'confit' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark">&rArr; &rarr; <?php the_title(); ?></a></h1>
+			<h1 class="entry-title"><a href="<?php echo $outbound_link; ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'confit' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark">&rarr; <?php the_title(); ?></a></h1>
 			<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'confit' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark" class="link-thumbnail">
 				<?php the_post_thumbnail( 'thumbnail' ); ?>
 			</a>
